@@ -1,0 +1,30 @@
+{
+  "name": "@algovoi/revocation-ref",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Content-addressed revocation references for the AlgoVoi substrate (revoker + revoked_ref + reason + integer-ms revoked_at + prev_revocation_ref chain; tamper-evident) (open source, Apache-2.0; on request)",
+  "license": "Apache-2.0",
+  "author": "AlgoVoi <chopmob@gmail.com>",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "LICENSE",
+    "NOTICE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "canonicalize": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
