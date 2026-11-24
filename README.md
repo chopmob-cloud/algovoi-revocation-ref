@@ -1,5 +1,8 @@
 # algovoi-revocation-ref
 
+
+[![PyPI](https://img.shields.io/pypi/v/algovoi-revocation-ref)](https://pypi.org/project/algovoi-revocation-ref/)
+
 Content-addressed revocation references for the AlgoVoi substrate: revoke a
 delegation (or other authority) before it expires, tamper-evidently. The
 `revocation_ref` is the content hash of the revocation envelope, so any change to
